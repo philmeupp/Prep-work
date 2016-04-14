@@ -1,0 +1,57 @@
+h1 {
+  text-align: center;
+}
+
+header {
+  background-color: beige;
+}
+ img.med_pic {
+  border-radius: 40px;
+  width: 500px;
+  border-style:  solid;
+  margin: 30px;
+  box-shadow: 10px 10px 5px #888888;
+  max-width: 100%;
+  transition: all 0.5s; 
+ }
+
+img.med_pic:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.strike-through .list-group-item {
+  text-decoration: line-through;
+  color: red;
+
+}
+
+.carousel {
+  width: 640px;
+  height: 500px;
+}
+p, .intro {
+    padding-top: 80px;
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: monospace;
+    text-align: justify;
+}
+
+.list-group .list-group-item:hover {
+  background-color: #337AB7;
+}
+
+/*.list-group .list-group-item {
+  background-color: #FCF8E3;
+}
+
+
+
+
+
+
+
+
+
